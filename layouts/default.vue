@@ -68,7 +68,7 @@ export default {}
 footer {
   background-color: rgb(36, 36, 36);
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: Helvetica;
   font-weight: lighter;
 }
 

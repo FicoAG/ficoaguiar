@@ -1,6 +1,7 @@
 <template>
   <div>
     <HeroBanner />
+    <Navbar />
     <Experience />
     <Education />
     <Skills />
@@ -14,6 +15,7 @@ import Article from '@/components/Article'
 import Education from '@/components/Education'
 import Experience from '@/components/Experience'
 import Skills from '@/components/Skills'
+import Navbar from '@/components/Navbar'
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     Article,
     Education,
     Experience,
-    Skills
+    Skills,
+    Navbar
   }
 }
 </script>
