@@ -38,7 +38,7 @@ export default {}
   // #d84f00
   color: #d84f00;
   margin-top: -1.4rem;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: Helvetica !important;
   font-weight: 900;
   // text-shadow: 2px 2px #232420a1;
   @media screen and (max-width: 500px) {
@@ -50,7 +50,7 @@ export default {}
   font-size: calc(12px + 1.2vh);
   // color: #c49d15;
   color: white;
-  font-family: 'Courier Prime', monospace;
+  font-family: Helvetica !important;
   margin-top: -1rem;
   @media screen and (max-width: 500px) {
     font-size: 18px;
@@ -61,7 +61,7 @@ export default {}
   font-size: calc(12px + 2vh);
   // color: #c49d15;
   color: white;
-  font-family: 'Courier Prime', monospace;
+  font-family: Helvetica !important;
   @media screen and (max-width: 500px) {
     font-size: 18px;
     margin-top: -10px;

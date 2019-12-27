@@ -1,11 +1,11 @@
 <template>
   <div class="education-container">
-    <h1>WORK EXPERIENCE</h1>
+    <h1>Work Experience</h1>
     <div class="container">
       <div class="timeline-block timeline-block-right">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>CHIEF SALES OFFICER</h3>
+          <h3>Chief Sales Officer</h3>
           <span>AdQuiver Media |</span>
           <span class="year">Sep 2018 - Jan 2019</span>
           <p>
@@ -16,7 +16,7 @@
       <div class="timeline-block timeline-block-left">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>SALES MANAGER</h3>
+          <h3>Sales Manager</h3>
           <span>Rodamientos Gallardo |</span>
           <span class="year">May 2016 - Apr 2018</span>
           <p>
@@ -27,7 +27,7 @@
       <div class="timeline-block timeline-block-right">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>HOSPITALITY CUSTOMER MANAGER</h3>
+          <h3>Hospitality Customer Manager</h3>
           <span>Mahou - San Miguel |</span>
           <span class="year">Mar 2013 - Apr 2016</span>
           <p>
@@ -38,7 +38,7 @@
       <div class="timeline-block timeline-block-left">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>CHIEF SALES OFFICER</h3>
+          <h3>Chief Sales Officer</h3>
           <span>Tüv Sud Iberia |</span>
           <span class="year">Oct 2012 - Feb 2013</span>
           <p>
@@ -49,7 +49,7 @@
       <div class="timeline-block timeline-block-right">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>VOLKSWAGEN & AUDI TRAINING MANAGER</h3>
+          <h3>Volkswagen & Audi Training Manager</h3>
           <span>Domingo Alonso Group |</span>
           <span class="year">Jan 2011- Sep 2012</span>
           <p>
@@ -60,7 +60,7 @@
       <div class="timeline-block timeline-block-left">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>CARIBBEAN MARKET MANAGER</h3>
+          <h3>Caribean Market Manager</h3>
           <span>Domingo Alonso Group |</span>
           <span class="year">Mar 2007 - Dec 2010</span>
           <p>
@@ -71,7 +71,7 @@
       <div class="timeline-block timeline-block-right">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>PRODUCT MANAGER</h3>
+          <h3>Product Manager</h3>
           <span>Domingo Alonso Group |</span>
           <span class="year">Jan 2007 - Feb 2007</span>
           <p>
@@ -82,7 +82,7 @@
       <div class="timeline-block timeline-block-left">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>SALES PLANNING</h3>
+          <h3>Sales Planning</h3>
           <span>Domingo Alonso Group |</span>
           <span class="year">Jun 2005 - Dec 2005</span>
           <p>
@@ -109,15 +109,16 @@ export default {}
 body {
   margin: 0;
   padding: 30px 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Helvetica;
   background: #f1f2f6;
 }
 
 h1 {
   text-align: center;
-  font-weight: 300;
+  font-weight: 700;
   color: #777;
   font-size: 36px;
+  font-family: Helvetica;
 }
 
 h1 span {
@@ -188,7 +189,7 @@ h1 span {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .timeline-content span {

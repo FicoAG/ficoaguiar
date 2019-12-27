@@ -1,11 +1,11 @@
 <template>
   <div class="education-container">
-    <h1>EDUCATION</h1>
+    <h1>Education</h1>
     <div class="container">
       <div class="timeline-block timeline-block-right">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>FULL STACK DEVELOPER BOOTCAMP</h3>
+          <h3>Full Stack Developer Bootcamp</h3>
           <span>Reboot Academy |</span>
           <span class="year">Sep 2019 - Dic 2019</span>
         </div>
@@ -13,7 +13,7 @@
       <div class="timeline-block timeline-block-left">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>FULL STACK DEVELOPER BOOTCAMP</h3>
+          <h3>Full Stack Developer Bootcamp</h3>
           <span>Le Wagon |</span>
           <span class="year">Apr 2019 - Jun 2019</span>
         </div>
@@ -21,7 +21,7 @@
       <div class="timeline-block timeline-block-right">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>EXECUTIVE MASTER ON BUSINESS ADMINISTRATION - EMBA</h3>
+          <h3>Executive Master on Business Administration- EMBA</h3>
           <span>Mid Atlantic Business School |</span>
           <span class="year">Jan 2018 - Dec 2018</span>
         </div>
@@ -29,7 +29,7 @@
       <div class="timeline-block timeline-block-left">
         <div class="marker"></div>
         <div class="timeline-content">
-          <h3>BACHELOR OF BUSINESS ADMINISTRATION, INTERNATIONAL TRADE & MARKETING</h3>
+          <h3>Bachelor of Business Administration, International Trade & Mmarketing</h3>
           <span>University of Wales |</span>
           <span class="year">2000 - 2005</span>
         </div>
@@ -53,15 +53,16 @@ export default {}
 body {
   margin: 0;
   padding: 30px 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Helvetica;
   background: #f1f2f6;
 }
 
 h1 {
   text-align: center;
-  font-weight: 300;
+  font-weight: 700;
   color: white;
   font-size: 36px;
+  font-family: Helvetica;
 }
 
 h1 span {
@@ -132,7 +133,7 @@ h1 span {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .timeline-content span {

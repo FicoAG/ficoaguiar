@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="main-container">
-      <h1>SKILLS</h1>
+      <h1>Skills</h1>
       <div class="skills-container">
         <div class="wraper">
           <div class="bar V75" data-skill="JavaScript"></div>
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <h1>OTHERS</h1>
+    <h1>Others</h1>
     <b-taglist class="tag-list">
       <b-tag type="is-primary is-medium">API Rest</b-tag>
       <b-tag type="is-primary is-medium">Express</b-tag>
@@ -41,7 +41,7 @@
       <b-tag type="is-primary is-medium">Hostings</b-tag>
       <b-tag type="is-primary is-medium">Domains</b-tag>
     </b-taglist>
-    <h1>LANGUAGES</h1>
+    <h1>Languages</h1>
     <div class="lang-container">
       <img class="flag" src="../static/spain.svg" alt />
       <img class="flag" src="../static/united-kingdom.svg" alt />
@@ -70,10 +70,10 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 36px;
+  font-family: Helvetica;
   padding-bottom: 40px;
   padding-top: 40px;
 }
@@ -124,7 +124,7 @@ h1 {
   font-size: 14px;
   color: #fff;
   font-weight: light;
-  font-family: 'Roboto', sans-serif;
+  font-family: Helvetica;
 }
 .bar::before {
   content: attr(data-skill);
